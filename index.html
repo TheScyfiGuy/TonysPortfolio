@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tony Brown</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+      integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <div id="preloader">
+      <div class="jumping-dots">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+
+    <header id="header" class="header">
+      <div class="container container-lg">
+        <div class="header-nav">
+          <a href="#home" class="logo">T<span>.</span>Brown</a>
+          <nav id="nav" class="nav">
+            <ul class="nav-list">
+              <li class="nav-item">
+                <a href="#home" class="nav-link active">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#about" class="nav-link">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="#projects" class="nav-link">Project</a>
+              </li>
+
+            </ul>
+            <button id="nav-btn" class="nav-btn">
+              <img
+                id="nav-btn-img"
+                src="img/icons/open.svg"
+                alt="Navigation button"
+              />
+            </button>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <section id="home" class="hero">
+      <div class="container container-lg">
+        <div
+          class="hero-row"
+          data-aos="fade-zoom-in"
+          data-aos-easing="ease-in-out"
+          data-aos-delay="1800"
+          data-aos-duration="2000"
+        >
+          <div class="hero-content">
+            <span class="hero-greeting"> Hello, I am</span>
+            <h1 class="hero-heading">Tony Brown</h1>
+            <span class="hero-heading-subtitle"
+              >A Student FullStack Software Developer</span
+            >
+            </div>
+          </div>
+          <div class="hero-img">
+            <img
+              src="img/hero/Tony.jpeg"
+              alt="Picture of myself</a>
+              "
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container">
+        <div class="about-title">
+          <h2 class="title">About Me</h2>
+        </div>
+        <div class="about-row">
+          <div class="about-content">
+            <p class="about-descr">
+              I am a student at Grand Canyon University (GCU). I have taken several classes on web design and development covering a broad range of topics
+              in both frontend and backend coding. Below you will find a project that I have done and am continually polishing. This is my first front to back project that I have 
+              done outside of a group setting. To the right of this text you will find the languages and skills I am proficent in and their scores based on 
+              how comfortable I am with them.
+            </p>
+          </div>
+          <div class="about-skills">
+            <div class="skill">
+              <div class="skill-title">Web design</div>
+              <div class="skill-percent">95%</div>
+              <div class="skillbar" style="width: 95%"></div>
+            </div>
+            <div class="skill">
+              <div class="skill-title">HTML/CSS</div>
+              <div class="skill-percent">80%</div>
+              <div class="skillbar" style="width: 80%"></div>
+            </div>
+            <div class="skill">
+              <div class="skill-title">JavaScript</div>
+              <div class="skill-percent">65%</div>
+              <div class="skillbar" style="width: 65%"></div>
+            </div>
+            <div class="skill">
+              <div class="skill-title">Backend(Java & C#)</div>
+              <div class="skill-percent">90%</div>
+              <div class="skillbar" style="width: 90%"></div>
+            </div>
+          </div>
+        </div>
+        <div class="services-row">
+          <div class="service-card" data-aos="fade-down">
+            <img class="service-card-img" src="img/services/01.svg" alt="" />
+            <h3 class="service-card-title">Backend Design/Development</h3>
+            <p>
+              I have done mostly backend parts on the group projects that I have been apart of. From the database design to making sure the 
+              APIs are responding correctly to the database when a user is trying to do an action such as add, edit, or delete. I have utalized tools such as 
+              Postman to help build
+              proper APIs. 
+            </p>
+          </div>
+
+          <div class="service-card" data-aos="fade-down">
+            <img class="service-card-img" src="img/services/02.svg" alt="" />
+            <h3 class="service-card-title">Frontend Development</h3>
+            <p>
+              I have taken basic courses on frontend development. Simple things that I have learned from these courses 
+              are how to use BootStrap to make sites more attractive and appeal to users. A fun, but challenging part in my journey 
+              was learning how to make a carousel work properly for a eCommerce site, to allow the user to rotate through products. 
+            </p>
+          </div>
+
+          <div class="service-card" data-aos="fade-down">
+            <img class="service-card-img" src="img/services/03.svg" alt="" />
+            <h3 class="service-card-title">Content Writing</h3>
+            <p>
+              Throughout the course of my education I have been responsible for making videos to describe application features and 
+              application utility in both group and personal settings. I have also had to make several PowerPoints to describe and break down applications 
+              and their usefulness. 
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <div class="container container-lg">
+        <div class="projects-title">
+          <h2 class="title">Project: Kingdom Builder App</h2>
+        </div>
+        <section id="about" class="about">
+          <div class="container">
+            <div class="about-title">
+              <h2 class="title">About Project</h2>
+            </div>
+            <div class="about-row">
+              <div class="about-content">
+                <p class="about-descr">
+                  The purpose of this project is to create a gaming aid web application for a 
+                  popular tabletop game known as Dungeons and Dragons (D&D). 
+                  This application will incorporate rules from an extension of the D&D ruleset, 
+                  specifically the Kingdom Maker rules. Currently, there are no applications, web or mobile, 
+                  that assist with this ruleset as there are for the base D&D rulesets. 
+                  The Kingdom Maker or Kingdom Builder app will allow players to build and manage cities 
+                  within the application according to the ruleset.  
+                  <br />
+                  <br />
+                  The project has been developed and designed in the GCU classes CST-451 and CST-452.
+                  With continual iterations and progress post class my hope is to make this site into a widely used app for all those D&D players out there. The approach to implimentation 
+                  has been done with the Agile methodology. There will be code examples and a user/admin guide below. 
+                </p>
+              </div>
+              <div class="about-skills">
+                <div class="skill">
+                  <div class="skill-title">C#</div>
+                  <div class="skill-percent">52%</div>
+                  <div class="skillbar" style="width: 52%"></div>
+                </div>
+                <div class="skill">
+                  <div class="skill-title">HTML</div>
+                  <div class="skill-percent">37%</div>
+                  <div class="skillbar" style="width: 37%"></div>
+                </div>
+                <div class="skill">
+                  <div class="skill-title">JavaScript</div>
+                  <div class="skill-percent">10%</div>
+                  <div class="skillbar" style="width: 10%"></div>
+                </div>
+                <div class="skill">
+                  <div class="skill-title">CSS</div>
+                  <div class="skill-percent">1%</div>
+                  <div class="skillbar" style="width: 1%"></div>
+                </div>
+              </div>
+            </div>
+        </section>
+        <div class="about-title">
+          <h2 class="title">Project Diagrams</h2>
+        </div>
+        <div class="projects-row">
+          <div class="project-box">
+            <a href="#!">
+              <img class="project-img" src="img/works/High Level.png" alt="" />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">High Level</h5>
+                  <p class="white">Diagram</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="project-box">
+            <a href="#!">
+              <img class="project-img" src="img/works/KindomBuilderSitemap.png" alt="" />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">Site Map</h5>
+                  <p class="white">Diagram</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="project-box">
+            <a href="#!">
+              <img class="project-img" src="img/works/User Interface Kingdom Builder.png" alt="" />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">User Interface</h5>
+                  <p class="white">Diagram</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="project-box">
+            <a href="#!">
+              <img class="project-img" src="img/works/UMLActivityKingdom.png" alt="" />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">Activity Map</h5>
+                  <p class="white">Diagram</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="project-box">
+            <a href="#!">
+              <img class="project-img" src="img/works/Logical Design Kingdom Builder.png" alt="" />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">Logic Design</h5>
+                  <p class="white">Diagram</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="project-box">
+            <a href="#!">
+              <img class="project-img" src="img/works/KingdomClassUML.png" alt="" />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">Classes</h5>
+                  <p class="white">Diagram</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="project-box">
+            <a href="#!">
+              <img class="project-img" src="img/works/DBDesignKingdom.png" alt="" />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">Database Design</h5>
+                  <p class="white">Diagram</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="project-box">
+            <a href="#!">
+              <img class="project-img" src="img/works/UMLSequenceKingdom.png" alt="" />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">Sequence</h5>
+                  <p class="white">Diagram</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="project-box">
+            <a href="#!">
+              <img class="project-img" src="img/works/ComponentUMLKingdom.png" alt="" />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">Component</h5>
+                  <p class="white">Diagram</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <br />
+        <br />
+        <div class="about-title">
+          <h2 class="title">Code Samples</h2>
+        </div>
+        <div class="projects-row">
+          <div class="project-box">
+            <a href="#!">
+              <img class="project-img" src="img/codesamples/Users.png" alt="" />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">Users Model</h5>
+                  <p class="white">Code Sample</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="project-box">
+            <a href="#!">
+              <img class="project-img" src="img/codesamples/AdminDAO.png" alt="" />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">Admin DAO</h5>
+                  <p class="white">Code Sample</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="project-box">
+            <a href="#!">
+              <img class="project-img" src="img/codesamples/AdminController.png" alt="" />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">Admin Controller</h5>
+                  <p class="white">Code Sample</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="project-box">
+            <a href="#!">
+              <img class="project-img" src="img/codesamples/AdminHTML.png" alt="" />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">Admin Page</h5>
+                  <p class="white">Code Sample</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="project-box">
+            <a href="#!">
+              <img class="project-img" src="img/codesamples/BuildingById.png" alt="" />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">Logic of BuildingById in DAO</h5>
+                  <p class="white">Code Sample</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="project-box">
+            <a href="#!">
+              <img class="project-img" src="img/codesamples/AddingBuilding.png" alt="" />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">Adding a Building Logic</h5>
+                  <p class="white">Code Sample</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="project-box">
+            <a href="#!">
+              <img class="project-img" src="img/codesamples/MapBuildingFunc.png" alt="" />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">JavaScript Code for Map Functions</h5>
+                  <p class="white">Code Sample</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="project-box">
+            <a href="#!">
+              <img class="project-img" src="img/codesamples/DynamicSettlementTable.png" alt="" />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">Dynamic Table for Settlements with Buildings</h5>
+                  <p class="white">Code Sample</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="project-box">
+            <a href="#!">
+              <img class="project-img" src="img/codesamples/MagicItem.png" alt="" />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">Magic Items Table</h5>
+                  <p class="white">Code Sample</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="about-title">
+          <h2 class="title">Frontend Guide</h2>
+        </div>
+        <div class="projects-row">
+          <div class="project-box">
+            <a href="#!">
+              <img class="project-img" src="img/runningapp/AdminRegistration.png" alt="" />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">Admin Registration</h5>
+                  <p class="white">Demonstrates the option to register as an admin or as a normal user</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="project-box">
+            <a href="#!">
+              <img class="project-img" src="img/runningapp/LoginAdmin.png" alt="" />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">Admin Login</h5>
+                  <p class="white">Logging in as an admin</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="project-box">
+            <a href="#!">
+              <img class="project-img" src="img/runningapp/AdminPage.png" alt="" />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">Admin Dashboard</h5>
+                  <p class="white">Page shows users that admin can delete</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="project-box">
+            <a href="#!">
+              <img class="project-img" src="img/runningapp/HoverFeature.png" alt="" />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">Building Hover Over Feature</h5>
+                  <p class="white">Demonstrates that a user can hover over a building for building stats</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="project-box">
+            <a href="#!">
+              <img class="project-img" src="img/runningapp/AddBuilding.png" alt="" />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">Add Building Feature</h5>
+                  <p class="white">Shows a users how to add buildings to the buildings page</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="project-box">
+            <a href="#!">
+              <img class="project-img" src="img/runningapp/EditBuilding.png" alt="" />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">Edit Building Feature</h5>
+                  <p class="white">Shows the user how to edit buildings</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="project-box">
+            <a href="#!">
+              <img class="project-img" src="img/runningapp/DeleteBuilding.png" alt="" />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">Delete Building</h5>
+                  <p class="white">Demonstrates the process for deleting a building from building page</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="project-box">
+            <a href="#!">
+              <img class="project-img" src="img/runningapp/CityView.png" alt="" />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">City View</h5>
+                  <p class="white">Shows page where users can select cities and add buildings</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="project-box">
+            <a href="#!">
+              <img class="project-img" src="img/runningapp/SelectACity.png" alt="" />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">Select A City</h5>
+                  <p class="white">Demonstrates the option to select a city from city dropdown</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="project-box">
+            <a href="#!">
+              <img class="project-img" src="img/runningapp/AddABuilding.png" alt="" />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">Add Building To City</h5>
+                  <p class="white">Shows how to add buildings to selected city</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="project-box">
+            <a href="#!">
+              <img class="project-img" src="img/runningapp/CreateANewCity.png" alt="" />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">Create A New City</h5>
+                  <p class="white">Shows form that allows users to create a new city</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="project-box">
+            <a href="#!">
+              <img class="project-img" src="img/runningapp/WorldMap.png" alt="" />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">World Map</h5>
+                  <p class="white">Shows the preloaded map that users can play on</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="project-box">
+            <a href="#!">
+              <img class="project-img" src="img/runningapp/BuildACity.png" alt="" />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">Build A City</h5>
+                  <p class="white">Shows build a city page with hover over capabilities</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="project-box">
+            <a href="#!">
+              <img class="project-img" src="img/runningapp/AddHouses.png" alt="" />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">Add A House</h5>
+                  <p class="white">Demonstrates adding a house to the map</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="project-box">
+            <a href="#!">
+              <img class="project-img" src="img/runningapp/RemoveHouse.png" alt="" />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">Remove A House</h5>
+                  <p class="white">Demonstrates removing a house from the map</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="container">
+          <div class="about-title">
+            <h2 class="title">Conclusion</h2>
+          </div>
+          <div class="about-row">
+            <div class="about-content">
+              <p class="about-descr">
+                To conclude, this project will continue to be refined and features added. To view the full project, please see the GitHub link below:
+              </p>
+              <p>
+                <a 
+                  href="https://github.com/TheScyfiGuy/KingdomBuilderApp" 
+                  target="_blank" 
+                  class="github-link"
+                >
+                  Kingdom Builder App Repository
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>        
+      </div>
+    </section>
+    
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-row">
+          
+
+          <div class="footer-copyright">
+            <p>&copy; Copyright 2024 | Designed by Tony Brown</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div id="goToTop" class="goToTop">
+      <a href="#home">
+        <img src="img/icons/arrow_up.svg" alt="Back to top"
+      /></a>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+      integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
